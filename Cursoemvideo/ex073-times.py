@@ -1,0 +1,11 @@
+times = ('Palmeiras', 'GRÊMIO', 'ATLÉTICO-MG', 'FLAMENGO', 'BOTAFOGO', 'RED BULL BRAGANTINO', 'FLUMINENSE', 
+         'ATHLETICO-PR', 'INTERNACIONAL', 'FORTALEZA', 'SÃO PAULO', 'CUIABÁ', 'CORINTHIANS', 'CRUZEIRO', 'VASCO', 'BAHIA','SANTOS', 'GOIÁS', 'CORITIBA','AMÉRICA-MG')
+print('=-'*30)
+print(f'Os 5 primeiros são {times[0:5]}')
+print('=-'*30)
+print(f'Os 4 últimos são {times[-4:]}')
+print('=-'*30)
+print(f'Times em ordem alfabética {sorted(times)}')
+print('=-'*30)
+print(f'O time {times[4]} está na {times.index("BOTAFOGO")+1}ª posição')
+print('=-'*30)
